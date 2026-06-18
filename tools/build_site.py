@@ -14,6 +14,9 @@ import os
 
 import routelib as rl
 
+# Public source repository, linked from the index page.
+REPO_URL = "https://github.com/stevevance/strava-trips"
+
 
 def fmt_date(iso):
     return datetime.datetime.strptime(iso, "%Y-%m-%d").strftime("%b %-d, %Y")
@@ -111,7 +114,8 @@ def build_index(datasets):
     parts.append("""<header>
   <h1>Strava trips</h1>
   <p class="intro">GPS routes from my Strava activities, mapped on an OpenStreetMap-based basemap.</p>
-</header>
+  <p class="repo-link"><a href="{repo}" target="_blank" rel="noopener">View source on GitHub &rarr;</a></p>
+</header>""".replace("{repo}", e(REPO_URL)) + """
 <main class="cards">
 """)
     for ds in datasets:

@@ -29,6 +29,9 @@ header .intro { margin: 0; color: var(--gray); }
 header .crumb { margin: 0 0 1rem; font-size: .9rem; }
 header .crumb a { color: var(--teal); text-decoration: none; }
 header .crumb a:hover { text-decoration: underline; }
+header .repo-link { margin: .9rem 0 0; }
+header .repo-link a { color: var(--teal); text-decoration: none; font-weight: 600; font-size: .92rem; }
+header .repo-link a:hover { text-decoration: underline; }
 
 .summary {
   display: flex;
