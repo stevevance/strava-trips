@@ -51,9 +51,12 @@ def trip_card(trip, activity, e):
     dist_km = rl.km(trip["distance_m"])
     dur = rl.fmt_duration(trip["duration_s"])
     mph = rl.avg_speed_mph(trip["distance_m"], trip["duration_s"])
-    top = rl.mph(trip["max_speed_ms"]) if trip.get("max_speed_ms") is not None else None
+    # Top speed is hidden for activities where GPS max-speed is unreliable
+    # (e.g. kayaking, where momentary GPS spikes produce nonsense values).
+    show_top = activity.get("show_top_speed", True) and trip.get("max_speed_ms") is not None
+    top = rl.mph(trip["max_speed_ms"]) if show_top else None
     top_stat = (f'<div class="stat"><div class="v">{top:.1f} mph</div>'
-                f'<div class="k">Top speed</div></div>') if top is not None else ""
+                f'<div class="k">Top speed</div></div>') if show_top else ""
     alt = e(f"Map of the GPS route for {trip['name']} at {trip['location']}, "
             f"an orange track over an OpenStreetMap-based basemap.")
     strava = (f'<a class="btn" href="https://www.strava.com/activities/{e(trip["strava_id"])}" '
