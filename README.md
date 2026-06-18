@@ -1,7 +1,7 @@
 # Strava trips
 
 A small static website that maps GPS routes from my Strava activities. Each
-activity type (kayaking, mountain biking, ...) gets its own page showing every
+activity type (kayaking, mountain biking, etc.) gets its own page showing every
 trip as a route map alongside its statistics, with an index page linking them
 all. Published with GitHub Pages.
 
@@ -32,6 +32,8 @@ index.html, *.html       the generated site (served by GitHub Pages)
 ```
 
 ## Adding a new activity (e.g. mountain biking)
+
+I used the Zapier MCP to fetch my activities from my Strava. The Zapier MCP will walk you through authorizing to your Zapier account, but you will also need to connect your Zapier to your Strava account ahead of time.
 
 1. Create `data/mountain-biking.json` (see the schema below).
 2. Fetch its basemap layers:
