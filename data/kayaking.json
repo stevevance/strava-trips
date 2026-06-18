@@ -1,0 +1,86 @@
+{
+  "slug": "kayaking",
+  "activity": "Kayaking",
+  "title": "Kayaking trips",
+  "intro": "GPS routes from Strava, mapped on an OpenStreetMap-based basemap",
+  "duration_label": "Time on water",
+  "total_duration_label": "Total time on water",
+  "route_color": "#e8602c",
+  "trips": [
+    {
+      "slug": "downtown-paddle",
+      "name": "Downtown paddle",
+      "date": "2025-09-28",
+      "location": "North Branch Chicago River",
+      "distance_m": 11040.2,
+      "duration_s": 6957,
+      "strava_id": "15968372062",
+      "start": [
+        41.906321,
+        -87.651501
+      ],
+      "base_water": false,
+      "polyline": "oyw~F|l~uOFJGCJABEACHERCN@?CDBHERULYNOn@Ut@o@`Ac@~@u@fAiAtAaARKLCh@WlDkCh@g@TYZm@FK@OLMd@m@dAeAhCmCn@g@jBy@nAa@rB{@z@Wv@Ov@]h@a@Rc@RUfAo@P_@FGh@YZMHAt@DjCBzBJn@LP@tA?XEXIb@WtAiAn@cApAeCz@oANOTOBIDCR[f@i@~BmBpAk@~BsA|@o@r@o@dAy@x@i@JEFG|Ao@f@Ot@ADCf@EV@JCNKF@FEPDJOHN@MAJDFLc@ALBBz@a@LA\\STIZECEF?HJJ[Fk@@DDKDB?g@EMNZACDc@Ca@Lk@Ag@Km@GQeByCk@qAa@o@EEY_AEa@@GEY?y@Gk@Dg@Ac@BM?MBED_AC]@WAcA@[K]Ea@@GCKJW?EAK@U?{@A[Ba@Ie@BQBg@GaA@o@HICa@Bo@Ia@F[?QLI?CEBDCBc@Kc@Ea@DGEa@EcA?w@@OE?DEIOR_@IECI?]C_@Oq@O_@KQGWGCAMKIAKDKs@q@MUQ]AKMSKc@[s@Su@Kg@Mo@Cq@EIHE?MLOEQCg@M{@JoA?a@Ge@F]?Y@K?c@FYDe@@m@DKAY@}@Hc@A_@DW?YFUP@@ICKF^@KJYEe@O]MILyABgBFg@NaAFqAC[@aACmAD_DDg@?kABeAIgDKiB@EAE@IJ\\?MQwAGs@J{AAg@CUUa@y@u@s@{@QO_@UKCG@YVGX?^ILQDw@Iw@LKDKHGRC\\@HHJ?GBCEHE\\BnBEp@IX?R@HDBFN@FANDBAFEB?LEJDpAG`CCzDHhAAhADLHDHWEw@AiAIuA@_JH[GK?E@?E??BBYTINQ@UQ?ISIAAIA@Ew@?oADy@HWFGLCl@FXETKN?j@Jl@GLHFNBZAt@LVD`@b@fAHf@Ch@DHCP@|@Kz@@nBD`AMvAP~BDtEGh@OfGK~BAbBJT?HI\\MxD_@jCWfC?lABz@LbAFTEpA@pAJ~@Hf@t@|Bd@z@j@j@Z`@H?GL@HXn@n@fADT@h@M\\HL@\\GxFBp@AzBDdCElE?l@@JHL?LIDE\\IhD?z@BNCDCtBNjDPb@Pv@FLf@~Br@fBHHAD@C@D@ZCLBFA\\@p@Mr@IPSTi@Zi@Rg@Ju@XcBz@m@NaAb@M@g@PuAn@yBxAa@^sAx@w@p@UFMJY@UFcAh@YZIBWp@e@z@G@}@l@ML?BCAC@SXcBfDYb@a@^c@Xg@P]DaEHu@DaB?w@HEAa@Dk@Ha@Ju@Ze@Zo@j@gAx@sAnA[Ro@Zc@Xm@V_@Hi@Pk@^kAj@aA`@yArA_AdAiAjAu@lASJKRUXmBvAeDvCgA^]P]VyEbEg@h@u@l@YX_@VI@KC"
+    },
+    {
+      "slug": "kayak-in-busse-woods",
+      "name": "Kayak in Busse Woods",
+      "date": "2025-08-18",
+      "location": "Busse Lake, Elk Grove Village (outside Chicago)",
+      "distance_m": 9694.4,
+      "duration_s": 12235,
+      "strava_id": "15504017208",
+      "start": [
+        42.030006,
+        -88.017886
+      ],
+      "base_water": false,
+      "polyline": "o~o_Gx~exOBICDO[Ke@Gi@Ui@AeBEc@MUYQGGIW?a@DUXi@J[@UE[@a@N_Ab@kBHaAHWRGLQFq@Hg@LWZ_@HSBOGJMGMDEDa@`BSd@a@r@ATDLFFL?DI?K]m@EAE?CDB@EBM?MEKMAUBSDG^UFGp@yA\\i@JEN@PFFHICFGBMIs@IIq@[{@Ka@MiAk@aCcAIEKQKBk@M_@Am@Ha@Oe@CmBR[FYNURCLFL^\\DP@RC@@CMEQUKGOES@MFa@^oA~@c@^GJGRCVAbBEhAQjBIZa@Xw@ZyA\\}@Hq@Vg@Li@ZUTMPCFAAOTIPC\\@h@BVFJ@ICCD[Vk@VaAVa@`@_@LINE`AIvAU~@a@TQVYv@iALWTsA?WCJOFGJGX?TDTP\\FBHAHQFc@?aCHsAH]Rc@Xa@b@a@PUvAwAZYNIC??@C??DxBO`ADnANd@NLDDF\\D`@Lp@^n@f@JLFVGZPIPFDAY\\[ND@FAALDNP\\HFPD^BTBfC~@v@L^Pb@DZL^Fh@?VEVIlAcAx@e@`@]XK~AENBh@N`@F~@BZENIj@g@dBgBKD@AA@?ASHSRYfAKRKDq@HGBKPCTF|@?vAF|@B~@VfC^`C@ZGt@?LDPLV\\`@X`@DDDHIOBNDFBPJIL?FCJG^g@JG\\CHQD[Gu@?a@HcAYe@@?@HB?A@KOK@CD@ACI?@RABBFLADRZIz@H~AI`@ILYHs@n@I@MA@?SFKe@OIQ_AKmAG_@Uu@U_@EME[Bi@b@kB`B{EZi@NSLG`@o@N]^uAT]RMVKLAX@^HXPbB|An@x@zAnCfAxBp@~@FPLJ^L@BALLGC\\MBKMCUDWR[h@g@Ta@Z}@Py@CMOAGUEs@EIICH[Ce@_@iB_@{@A]Iy@KeB@eAK_A?QBEFAHBHR@r@JVF?DIH]Bg@PoAB{ALsALaAJk@`@oAFy@?g@Gs@]wA]}@[cBG{@Ai@@KACBCFaANiABiAX_BHm@AEOLDc@Jg@\\cADg@Rw@n@uAXUJA\\WbAg@|@YVOr@WNCb@?t@ONF?DGB@@V@CHB@LBLC?EC?@]EMACGAIBk@`@a@TyBn@_@XYNE?CCE@e@l@cAxAw@bBq@hBe@`BWnAY|BUtAmAnEa@pBsAzEs@zBQZARm@hBsAbDKf@Kz@Kb@O\\gApBuAxB]r@_A`C]fA[fAWjA[tBMfAEd@@j@HnAVxBHR@CA@Jb@BC?@ACFNDDVFZ@d@Ad@EHD@FALgAbBEPcAnBy@hBm@~@gAjA_@Z{BnAq@t@g@~@IVa@~AYjBIv@KtBBpB"
+    },
+    {
+      "slug": "first-time-kayaking-on-lake-michigan",
+      "name": "First time kayaking on Lake Michigan",
+      "date": "2024-09-15",
+      "location": "Burnham Harbor / lakefront",
+      "distance_m": 5241.0,
+      "duration_s": 14134,
+      "strava_id": "12426447978",
+      "start": [
+        41.863623,
+        -87.607506
+      ],
+      "base_water": true,
+      "polyline": "sno~F|yuuOBH@CC@CC?DACD@?C@@AFC@?CDIE@@OEQBEEED?O@NCCEGRI@FB^OD@HAJYIGs@TDA@DAD@@@A@b@HP?OCIAN@I?BBEG_@MKD?ABE@INCC?B?AQQDAEJB@BACAKDBAACB?AGABDBCDFDBG?DDFE@@ADFB?Oe@?F@?C?HKaAr@POPg@CGDIFJ?BFAC?@CMJJLAB?EIIKZ@K@@?BTBSFHKBN?AB@CB?ADHB?JJRBFBDCB@AMCABH@EGe@U?@HJH?R?CJLOSC?F??HGe@EIADOKA@D?GAPFEHB?KCA?BABFBAAAHl@CK@BD@AFCG@@??RALDACCDBGCD?QGIISOm@N?C\\@BDOCb@?MH@ER?UK}@CCYyAKMCAI@]?UHS^EVHRRLTBl@OLNHTPZL~@AFCE@@?K?F?CBHCCAEDPCC?I?DD@A@ISBY@RANBDEIAMDPGQDREALFOKABBHD?HGCO@NG@GMJLCEE??GGACEAM?i@Fc@TNBTVj@@RA@EE@?AIBBA@?ABDAOAPBBI@CIL@CCAFC@AM?D@AMFGHDIJEACBACK@i@Gc@GOMG@NDFRDJ?f@MFMGu@GO@@GNNb@Bn@GV?YEIOAOB@BEYHKBDGUEER\\FAJb@OBQEGKGOAa@@ZBD@@FOT`@FWAYOo@KSM_@}@aAsAa@[OgAGi@Ic@USQEAUOKE?CUGK@o@MWA]KIGQGS?g@H_@PMNIBIJE\\?NGPCRC@?FIXMPw@t@MTEN?JF^Bb@PnAEx@Dr@AVDZAXBf@Ez@Dh@A`@B`@Ad@Kj@ATE^O\\EPq@pASh@OTc@xAN?IDSVSf@Qt@I`AEPALIf@OjBBZEn@?VBPAVDZ@D@f@F`A?VCVINUPq@n@WJEHKAh@vAWLQ@OF_@EOJUFm@?QDUBK?_@Gg@Jc@@[Gi@COD?\\M@OGKS?ODOPMh@?PDTNj@?b@Qv@OXQXGl@c@NULM`@Mj@[ZGVMNQLc@Ta@Au@Mg@O}ABiAHo@?[Fe@JQJg@J]Fi@XgAFs@Xu@LaA?OH{@@k@Hm@Cc@Hu@HW@YHe@HqALe@De@@m@FkAAOBYJUI{@Bs@Hi@N[NOB?FODa@LYBSBEH[HMZYLG\\C@CNAJ?XO^APDb@@TFd@Zd@NVVNHNBLF^HfAd@TFn@@NBTNR`@Nh@Fh@Bh@T|@@FDL?NAC"
+    },
+    {
+      "slug": "kayak",
+      "name": "Kayak!",
+      "date": "2024-07-27",
+      "location": "North Branch Chicago River",
+      "distance_m": 11971.9,
+      "duration_s": 10552,
+      "strava_id": "11996747281",
+      "start": [
+        41.906345,
+        -87.65152
+      ],
+      "base_water": false,
+      "polyline": "syw~F~l~uOFDEQJXEPGFADLKIDY^QNe@TW^]LQRANCS@?@C?F?CC@?AEAGDFCNOC?BBG??BCA^GBGDCZCX[ZILKVe@RKJKBILQREp@i@RW^Q\\a@HGl@AZa@XOJIH_@VSJSVWjAo@~@o@F?jAq@n@Yz@k@VWl@y@t@w@Vg@AGDGGSIIBEh@a@z@g@h@m@j@]d@m@r@o@dAm@h@M|@c@vAc@|Aq@~BoAJCZ?fAJLCPQ`@y@t@cAVO|@MP?NB@ICFHMj@Lr@Hj@AZ@RMFJF?FA?KDABI@TJDJA@CPBRAAADCT?RHBHD@CJp@[REPD^_@Zg@`@[hBoBh@{@t@yA`@m@@GHMB??CL@BSNSfA}@tAqA^OCGLC\\SVGxAu@NFA?JQNMD??AXYvCwBf@m@r@e@z@[jAYvAOLDrAG|@Ud@FJYj@_@JO\\Q@CACFC?EHMDKAGDDBC@c@B@?EJa@Bo@BY?w@CUeAyBSW]m@KOWOQWOKO[GGK@EMLsAEiAB}AEu@@_@C?GMD@ESF{A?oBAs@?EIGIWFFLGFa@@_@AW@u@GaA?y@@DC??EC?Bm@I[T{@Na@BP@V?IB?EA@??CBJCAHDE@FBL@A?DDGE?KFFC@BAEA@HIAAGDg@DEKMBACEA@M?@BD@EEFAB@RGCAK?D?QEHDABD??EGBD?A@AE?BF?KBAQCDFAE@DDLDEGMCDBN?EBECABKA?CDABBC@F?C@AE@DFAG?FAKAD@G?@BGAJIA@B?AACDFBA?BHCDBNAJ?JCDAJ@AACCABABBG@B@CGA?A@@D?O@@AA?D@CEDBAA@CAD@?G@@Ea@O]Cc@GU?UBOKGJKMWFQDo@?QKaAA_BD@AU@GHEACE@AEI_AKm@Wa@o@uAFEEEKUAKW_@c@gAIMWeAIOWi@KCO]I]AKF_B?ECAKQREPMIEEQGkAGOBkAEa@?k@D}@\\oCCeALiA@k@Di@?OEKA]L{ATqA@_@P}BVwBBaC?_ADq@CqCDaAKi@Aa@JUBADFAD@AD]@_@Ce@Y_AKi@Eo@EC?EGEBICA@EJQBMDo@B}BCcAU{@KSy@_AUOYMy@Oi@MOGa@F]Pm@PSLOPe@v@MXAVFrA@l@Gd@OTDHKUFWFGFAJFBFCPWVI@AJBBB@?e@F]FGD@JPBREd@KR?ZH\\EBJB@CEC?VKL?ECLDrAA|BAD@f@AfDCXKJFHBbARp@DTAHE?AO@eBFiBFy@BKKN@DKD?IHO@UFSBw@A}@BGEm@Bi@CI?_@BEAEJKAEKCBCE?BE?IJm@AG@GDCEC?IECCgBImAFi@HQLK`@Cl@IT@XHdAHHDDHPn@D^L\\RhALbAANDf@KJHf@?`@[rCOdCATFrALn@Pd@BV?bAHrASbHG|@G`BAfB@BCHCb@ErCQnBUrAUhC?nATvAHfAMt@BrBD^Rn@nBzDj@|@DNFDDd@b@tAPVHRA^DHFBGB?DBLGTCz@LrA@~AGXBPDbAAtBC~@C\\EbFBXFVFB?FILEZIlEB\\Cr@@dCJhBDXL\\Ll@LZAHTfAlAfDJd@B~@CZIZYj@o@`@u@Vm@N}BdAu@Nw@b@YHW@]JUJ}@l@oAp@iA|@YZk@^k@\\_@LUNUBENG?m@\\y@bAw@|@i@VS^i@n@e@p@cBnCs@v@c@Xq@X[FYBcDHsCCg@D[JQA[DcA?k@`@k@p@sBdBoCfByAr@{CpAyAj@c@VqAlA]b@kBrBc@n@_@Xc@t@e@XeCfCk@`@u@b@_AFSHmA~@iAnAw@p@cAr@WTm@v@GRAZKNGDM@GBYXGBKEIY"
+    },
+    {
+      "slug": "morning-kayaking",
+      "name": "Morning Kayaking",
+      "date": "2023-06-04",
+      "location": "South Branch Chicago River",
+      "distance_m": 7117.5,
+      "duration_s": 6274,
+      "strava_id": "9205258765",
+      "start": [
+        41.85797025449574,
+        -87.63562705367804
+      ],
+      "base_water": false,
+      "polyline": "ikn~Fti{uOa@{@DE@BA@FBGL?EHEf@BNDBA@@?BDCp@TJHHPZL`Ah@HLJFNTVPRVj@d@HJHBJ^PRF@DAHFXn@LN^nAV^DPj@hAl@pBHT^h@Zp@HJb@b@n@ZPRjAz@^LRPZHH?BFVLVFDAJBT\\XADFBNr@b@^\\H?FDTRb@VNBJJnBrARHXXl@\\r@|@FV^l@`@`ATr@NXHVH`@H`BCdA^jHBPBB?j@VzAZzA~@vD\\`CJ|@@\\NdAFXDZ?`@HnAO~BG`@IPGTEFIREB?DHLHXNNZDXI?EIICJHb@JtALv@Bp@Ip@Et@GTCj@BLLNHCDOAOQKKHEN@^KvBBZDZQfAK~AAnA@t@T|@\\bAtArCd@t@b@~@L\\LPN`@BBFXLTh@|@j@r@Zh@x@t@n@~@Pr@PPHTFDLj@L^TdAFJ\\jATd@d@xAFLNz@?l@OnAOv@?TIv@@VIb@?r@BNNNFBFLNDXAb@Iv@G\\@ZCREZWn@MpAcAHOJ[@]DI?UMOOEk@_@YKKKSIKIKE]GWSU]UKMMw@qBIYGGEQCQKOSi@]m@Yu@_@g@]u@KIESIOKa@IQMm@KGAEGA_@s@KGYs@k@s@M[g@e@KWSUg@cAOQo@kA?IEEEACBQa@?EGKE?E@CECUGO[iAC]IQUmAGaA@gAGMI@CIX}@?MC@ACCQL]RkBCYFM?ECCC?CEAKH[Fk@JSBuBAmAAs@Ei@@KAc@Gw@EOIEKOGiAGOECEIHy@Ey@CQ?g@BYGeB]iBOg@y@qEK[O}@KeAW_@AQI]BKG_@S]AKMQCKAuCCY@k@Ce@@]CcAG]Ck@Mq@F]CWDGAMFKCMWs@[o@Qm@OU]_@Uk@KE[QYYq@c@o@[e@_@[O]YYKk@_@s@[OOYQKQUGKBKC[WUIMOUOI?OMgAm@UKOEkA{@OSCIOMWa@CAGSWc@QGIWOKWu@w@eBKQECE@CCI_@Oi@CYEGDGCWMUe@_@Y_@k@e@S]eBqAOOAI}@e@[K_@Ya@SWIK@IIUM[[_@U]ECGJFBCAEHBF?Na@DGJCKKQEIMAFD@@EBDC??BH@CEBDD?"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Build scratch (raw transcribed polylines; canonical data lives in data/*.json)
+data/_*.txt

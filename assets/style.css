@@ -1,0 +1,120 @@
+/*
+ * Strava trips — shared styles.
+ * Each trip is a row: route map on the left, statistics on the right. The
+ * layout is intentionally wide and the map column large so the maps fill the
+ * screen rather than leaving big margins. Rows stack on narrow viewports.
+ */
+:root {
+  --dark: #2c3e50;
+  --teal: #18bc9c;
+  --gray: #6b7a88;
+  --line: #e3e6e8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--dark);
+  background: #fff;
+  line-height: 1.5;
+}
+
+header {
+  padding: 2.4rem 1.5rem 1.6rem;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+header h1 { margin: 0 0 .4rem; font-size: 2.1rem; }
+header .intro { margin: 0; color: var(--gray); }
+header .crumb { margin: 0 0 1rem; font-size: .9rem; }
+header .crumb a { color: var(--teal); text-decoration: none; }
+header .crumb a:hover { text-decoration: underline; }
+
+.summary {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+}
+.summary div { text-align: center; }
+.summary .num { font-size: 1.6rem; font-weight: 700; color: var(--teal); }
+.summary .lbl { font-size: .8rem; color: var(--gray); text-transform: uppercase; letter-spacing: .04em; }
+
+/* Wide container + large map column so maps dominate the page. */
+main { max-width: 1350px; margin: 0 auto; padding: 1.5rem; }
+
+.trip {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  padding: 2.2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.trip:last-child { border-bottom: none; }
+.trip .map { flex: 1 1 60%; min-width: 0; }
+.trip .map img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: block;
+}
+.trip .info { flex: 1 1 40%; }
+.trip .info h2 { margin: 0 0 .15rem; font-size: 1.6rem; }
+.trip .info .where { margin: 0 0 1.3rem; color: var(--gray); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem 1.6rem;
+  margin-bottom: 1.4rem;
+}
+.stats .stat .v { font-size: 1.4rem; font-weight: 700; }
+.stats .stat .k { font-size: .8rem; color: var(--gray); text-transform: uppercase; letter-spacing: .04em; }
+
+.btn {
+  display: inline-block;
+  padding: .55rem 1.1rem;
+  background: var(--teal);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: .95rem;
+  font-weight: 600;
+}
+.btn:hover { background: #149a80; }
+
+/* Index landing: a card per activity. */
+main.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.6rem;
+}
+.activity-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow .15s, transform .15s;
+}
+.activity-card:hover { box-shadow: 0 6px 20px rgba(44, 62, 80, .12); transform: translateY(-2px); }
+.activity-card .thumb img { width: 100%; height: 220px; object-fit: cover; display: block; }
+.activity-card .meta { padding: 1rem 1.2rem; }
+.activity-card .meta h2 { margin: 0 0 .2rem; font-size: 1.3rem; }
+.activity-card .meta p { margin: 0; color: var(--gray); }
+
+footer {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: .82rem;
+  padding: 1.8rem 1rem 2.6rem;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 760px) {
+  .trip { flex-direction: column; align-items: stretch; }
+  .trip .map, .trip .info { flex: 1 1 auto; }
+}
