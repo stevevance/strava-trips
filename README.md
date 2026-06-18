@@ -46,11 +46,15 @@ I used the Zapier MCP to fetch my activities from my Strava. The Zapier MCP will
    uv run --python 3.12 --with geopandas --with matplotlib --with shapely \
      python tools/render_maps.py --data data/mountain-biking.json
    ```
-4. Rebuild the pages (regenerates every activity page + the index):
+4. Generate link-preview (Open Graph) images:
+   ```bash
+   uv run --python 3.12 --with pillow --with matplotlib python tools/make_og_images.py
+   ```
+5. Rebuild the pages (regenerates every activity page + the index):
    ```bash
    python3 tools/build_site.py
    ```
-5. Commit and push — GitHub Pages redeploys automatically.
+6. Commit and push — GitHub Pages redeploys automatically.
 
 ## Dataset schema
 
