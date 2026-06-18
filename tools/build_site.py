@@ -51,6 +51,9 @@ def trip_card(trip, activity, e):
     dist_km = rl.km(trip["distance_m"])
     dur = rl.fmt_duration(trip["duration_s"])
     mph = rl.avg_speed_mph(trip["distance_m"], trip["duration_s"])
+    top = rl.mph(trip["max_speed_ms"]) if trip.get("max_speed_ms") is not None else None
+    top_stat = (f'<div class="stat"><div class="v">{top:.1f} mph</div>'
+                f'<div class="k">Top speed</div></div>') if top is not None else ""
     alt = e(f"Map of the GPS route for {trip['name']} at {trip['location']}, "
             f"an orange track over an OpenStreetMap-based basemap.")
     strava = (f'<a class="btn" href="https://www.strava.com/activities/{e(trip["strava_id"])}" '
@@ -64,6 +67,7 @@ def trip_card(trip, activity, e):
         <div class="stat"><div class="v">{dist_mi:.1f} mi</div><div class="k">Distance ({dist_km:.1f} km)</div></div>
         <div class="stat"><div class="v">{dur}</div><div class="k">{e(activity['duration_label'])}</div></div>
         <div class="stat"><div class="v">{mph:.1f} mph</div><div class="k">Avg speed (incl. stops)</div></div>
+        {top_stat}
         <div class="stat"><div class="v">{e(activity['activity'])}</div><div class="k">Activity type</div></div>
       </div>
       {strava}

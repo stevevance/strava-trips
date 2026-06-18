@@ -107,6 +107,10 @@ def avg_speed_mph(distance_m, seconds):
     return miles(distance_m) / (seconds / 3600.0) if seconds else 0.0
 
 
+def mph(meters_per_second):
+    return meters_per_second * 2.2369362920544
+
+
 # ---- geometry (lazy heavy imports) ----------------------------------------
 
 def route_bounds_3857(polyline):
